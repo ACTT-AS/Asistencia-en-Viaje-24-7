@@ -1,0 +1,1 @@
+var currentPage={initialize:function(){this.bindEvents()},bindEvents:function(){},onDeviceReady:function(){},initComunication:function(){$(document).ready(function(){EA.init()})}};currentPage.initComunication();

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+      <link href="css/ratchet.css" rel="stylesheet">
+      <link href="css/ratchet.min.css" rel="stylesheet">
+      <link href="css/ratchet-theme-android.css" rel="stylesheet">
+      <link href="css/ratchet-theme-android.min.css" rel="stylesheet">
+
+      <!-- Include the compiled Ratchet JS -->
+      <script type="text/javascript" src="js/cordova.js"></script>
+      <script type="text/javascript" src="js/zepto.min.js"></script>
+      <script type="text/javascript" src="js/mqttws31.js"></script>
+      <script type="text/javascript" src="js/ea.js"></script>
+      <script type="text/javascript" src="js/eabc.js"></script>
+      <script type="text/javascript" src="js/ratchet.js"></script>
+      <script type="text/javascript" src="js/flujos/solicita2.js"></script>
+  </head>
+  <body>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav">
+        <a class="icon icon-list pull-left" href="javascript:void(0)" id="backSpl" data-transition="slide-in" data-ignore="push"></a>
+        <h1 class="title">Europ Assistance</h1>
+    </header>
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+    <img class="imgheader" src="images/img_header.png">
+      <p class="content-padded">Favor seleccione la asistencia, según su requerimiento:</p>
+      <div class="content-padded">
+          <ul class="table-view">
+          
+  <li class="table-view-cell media">
+  
+    <a class="navigate-right tipoAsistencia" href="solicita_gps.html" data-transition="slide-in" data-ignore="push">
+      <img class="media-object pull-left" src="images/ico_32.png" width="42" height="42">
+      <div class="media-body">
+        <div>Asistencia Médica</div>
+        <p>Solicite su asistencia.</p>
+        
+      </div>
+
+    </a>
+  </li>
+  
+  
+  <li class="table-view-cell media">
+      <a class="navigate-right tipoAsistencia" href="solicita_gps.html" data-transition="slide-in" data-ignore="push">
+      <img class="media-object pull-left" src="images/ico_muela.png" width="42" height="42">
+      <div class="media-body">
+        <div>Asistencia Odontológica</div>
+        <p>Solicite su asistencia.</p>
+      </div>
+    </a>
+  </li>
+  <li class="table-view-cell media">
+      <a class="navigate-right tipoAsistencia" href="solicita_gps.html" data-transition="slide-in" data-ignore="push">
+      <img class="media-object pull-left" src="images/ico_42.png" width="42" height="42">
+      <div class="media-body">
+        <div>Demora en Equipaje</div>
+        <p>Solicite su asistencia.</p>
+      </div>
+    </a>
+  </li>
+   <li class="table-view-cell media">
+       <a class="navigate-right tipoAsistencia" href="solicita_gps.html" data-transition="slide-in" data-ignore="push">
+      <img class="media-object pull-left" src="images/ico_avion.png" width="42" height="42">
+      <div class="media-body">
+        <div>Demora de Vuelo</div>
+        <p>Solicite su asistencia.</p>
+      </div>
+    </a>
+  </li> <li class="table-view-cell media">
+     <a class="navigate-right tipoAsistencia" href="solicita_gps.html" data-transition="slide-in" data-ignore="push">
+      <img class="media-object pull-left" src="images/ico_58.png" width="42" height="42">
+      <div class="media-body">
+        <div>Otros</div>
+        <p>Solicite su asistencia.</p>
+      </div>
+    </a>
+  </li>
+</ul>
+      </div> <br><br>
+      <!-- Icons in standard bar fixed to the bottom of the screen -->
+<div class="bar bar-standard bar-footer">
+  <a class="icon icon icon-left" href="solicita1.html" data-transition="slide-in" data-ignore="push">
+  </a>
+
+</div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+      <link href="css/ratchet.css" rel="stylesheet">
+      <link href="css/ratchet.min.css" rel="stylesheet">
+      <link href="css/ratchet-theme-android.css" rel="stylesheet">
+      <link href="css/ratchet-theme-android.min.css" rel="stylesheet">
+
+      <!--   DatePicker    -->
+      <link rel="stylesheet" href="css/datepicker.css">
+      <link rel="stylesheet" href="css/bootstrap.css">
+
+      <!-- Include the compiled Ratchet JS -->
+      <script type="text/javascript" src="js/cordova.js"></script>
+      <script src="js/jquery-1.9.1.min.js"></script>
+      <script type="text/javascript" src="js/mqttws31.js"></script>
+      <script type="text/javascript" src="js/ea.js"></script>
+      <script type="text/javascript" src="js/eabc.js"></script>
+      <script type="text/javascript" src="js/ratchet.js"></script>
+      <script src="js/bootstrap-datepicker.js"></script>
+      <script type="text/javascript" src="js/flujos/solicita_gps.js"></script>
+  </head>
+  <body>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+  <header class="bar bar-nav">
+  <a class="icon icon-list pull-left" href="javascript:void(0)" id="backSpl" data-transition="slide-in" data-ignore="push"></a>
+  <h1 class="title">Europ Assistance</h1>
+</header>
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+    <img class="imgheader" src="images/img_header.png">
+     <p class="content-padded">Favor complete los campos a continuación para enviar su solicitud. Puede utilizar la herramienta de Geolocalización, para su ubicaci&oacute;n de est&aacute; manera la asistencia ser&aacute; m&aacute;s precisa.</p>  
+      <div class="content-padded">
+            <input type="text" placeholder="Nombre Paciente *" id="txtNombrePac_ass">
+            <input type="text" placeholder="Rut Paciente *" id="txtRutPac_ass">
+            <input type="text" placeholder="Teléfono *" id="txtTelefono_ass">
+            <input type="text" placeholder="Email *" id="txtEmail_ass">
+            <input type="text" placeholder="Fecha de salida de chile *" id="txtFecSalida_ass">
+            <input type="text" placeholder="Fecha de regreso a chile *" id="txtFecRegreso_ass">
+            <textarea placeholder="Observación/Sintomatía *" class="form-control" rows="3" maxlength="100" id="txtObservacion_ass"></textarea>
+            <input type="text" placeholder="Fecha Ocurrencia *" id="txtFecOcurrencia_ass">
+            <input type="text" placeholder="Dirección donde aloja *" id="txtDireccion_ass">
+
+
+  <button class="btn btn-positive btn-block" id="solicitar" >Solicitar Asistencia</button>
+
+<br><br><br><br>
+          <!-- Icons in standard bar fixed to the bottom of the screen -->
+
+      </div>
+        <div id="map_canvas"></div>
+      <div class="bar bar-standard bar-footer-secondary">
+  <button class="btn btn-block" id="conectarGps" onclick="currentPage.gps();">Conectar GPS</button>
+</div>
+       <!-- Icons in standard bar fixed to the bottom of the screen -->
+<div class="bar bar-standard bar-footer">
+  <a class="icon icon-left" href="solicita2.html" data-ignore="push"></a>
+</div>
+    </div>
+   <!-- Icons in standard bar fixed to the bottom of the screen -->
+
+<!--<div class="bar bar-standard bar-footer">
+  <a class="icon icon icon-left"></a>
+
+</div>-->
+  </body>
+</html>

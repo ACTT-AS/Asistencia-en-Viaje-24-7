@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="css/ratchet.css" rel="stylesheet">
+    <link href="css/ratchet.min.css" rel="stylesheet">
+    <link href="css/ratchet-theme-android.css" rel="stylesheet">
+    <link href="css/ratchet-theme-android.min.css" rel="stylesheet">
+
+    <!-- Include the compiled Ratchet JS -->
+    <script type="text/javascript" src="js/cordova.js"></script>
+      <script type="text/javascript" src="js/zepto.min.js"></script>
+    <script type="text/javascript" src="js/mqttws31.js"></script>
+      <script type="text/javascript" src="js/ea.js"></script>
+      <script type="text/javascript" src="js/eabc.js"></script>
+      <script type="text/javascript" src="js/ratchet.js"></script>
+    <script type="text/javascript" src="js/flujos/index.js"></script>
+  </head>
+  <body>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav">
+  <h1 class="title">Europ Assistance</h1>
+</header>
+
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+     <img class="imgheader" src="images/img_header.png">
+      <p class="content-padded">Bienvenido a todo un mundo de Care Services. Favor complete los campos a continuación, para enviar su solicitud.</p>
+      <div class="content-padded">
+  <input type="text" placeholder="Nombres *" id="txtNombre_reg">
+  <input type="text" placeholder="Rut *" id="txtRut_reg">
+  <input type="text" placeholder="Email *" id="txtEmail_reg">
+  <input type="text" placeholder="Patente *" id="txtPatente_reg">
+  <input type="text" placeholder="Compañia" id="txtPrestador_reg">
+  <input type="text" placeholder="Marca" id="txtMarca_reg">
+  <input type="text" placeholder="Modelo" id="txtModelo_reg">
+  <input type="text" placeholder="Teléfono *" id="txtAno_reg">
+
+<a id="enviarRegistro" href="javascript:void(0);" data-transition="slide-in" data-ignore="push">
+  <button class="btn btn-positive btn-block" >Solicitar Asistencia</button>
+</a>
+
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+      <!-- Include the compiled Ratchet CSS -->
+      <link href="css/ratchet.css" rel="stylesheet">
+      <link href="css/ratchet.min.css" rel="stylesheet">
+      <link href="css/ratchet-theme-android.css" rel="stylesheet">
+      <link href="css/ratchet-theme-android.min.css" rel="stylesheet">
+
+      <!-- Include the compiled Ratchet JS -->
+      <script type="text/javascript" src="js/cordova.js"></script>
+      <script type="text/javascript" src="js/zepto.min.js"></script>
+      <script type="text/javascript" src="js/mqttws31.js"></script>
+      <script type="text/javascript" src="js/ea.js"></script>
+      <script type="text/javascript" src="js/eabc.js"></script>
+      <script type="text/javascript" src="js/ratchet.js"></script>
+      <script type="text/javascript" src="js/flujos/solicita1.js"></script>
+  </head>
+  <body>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav">
+        <a class="icon icon-list pull-left" href="javascript:void(0)" id="backSpl" data-transition="slide-in" data-ignore="push"></a>
+        <h1 class="title">Europ Assistance</h1>
+    </header>
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+    <img class="imgheader" src="images/img_header.png">
+      <p class="content-padded">Solicite asistencia, según su requerimiento, o cont&aacute;ctese con Europ Assistance.</p>
+      <div class="content-padded">
+          <a href="solicita2.html" data-transition="slide-in" id="solicitarlnk" data-ignore="push">
+              <button class="btn btn-primary btn-block">Solicitar Asistencia Ahora</button>
+          </a>
+    <button class="btn btn-positive btn-block" id="callEa">Llamar a Europ Assistance</button>
+    </div>
+</div>
+  </body>
+</html>

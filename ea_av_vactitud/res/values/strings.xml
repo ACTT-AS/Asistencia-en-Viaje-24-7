@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">24/7 EuropAssistance</string>
+    <string name="launcher_name">@string/app_name</string>
+    <string name="activity_name">@string/launcher_name</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="continuar">Continuar ></string>
+    <string name="welcome">Europ Assistance te ayuda!
+con la aplicación de asistencia en ruta
+podrás contactarte directamente con la
+central o reportar una emergencia vehicular</string>
+    <string name="care_services">Bienvenido al mundo de Care Services</string>
+    <string name="selecciona">Selecciona la asistencia que necesitas</string>
+    <string name="viajes">Asistencia en Viajes</string>
+    <string name="vehicular">Asistencia Vehicular</string>
+    <string name="hogar">Asistencia Hogar</string>
+    <string name="salud">Asistencia Salud</string>
+    <string name="footer">Europ Assistance App</string>
+    <string name="welcomeAV">Europ Assistance te ayuda!
+        Con la aplicación de asistencia en viaje
+        podrás contactarte directamente con nuestra
+        central para reportar una emergencia en viaje
+        y recibirás la mejor asistencia en el menor tiempo.</string>
+    <string name="welcomePrincipal">Europ Assistance 24/7, es una aplicación orientada a la solicitud ágil y simple de Asistencia en viaje, vehicular, salud, hogar y otros, para nuestros clientes corporativos e individuales, desde su dispositivo móvil, habilitando las opciones de click to call e ingreso de solicitud, combinado con la tecnología GPS para la geo-referencia del cliente en demanda de asistencia.</string>
+</resources>
